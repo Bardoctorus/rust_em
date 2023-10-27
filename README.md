@@ -18,3 +18,11 @@ Still to decide:
 - Output format - same sheet? Redundant?
 - how generic? Could this be sectional and made into a lib?
 
+## Current TODO
+
+-[ ] Implement seperate file for YT Desc Template Text
+-[ ] Implement seperate file for Podcast Desc Text
+-[ ] Implement input file
+-[ ] Implement parsing cases with no timestamp/link
+-[ ] Implement saving to dated spreadsheet
+-[ ] Look into Sheets integration as possible backup

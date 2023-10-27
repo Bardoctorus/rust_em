@@ -9,7 +9,9 @@ fn main(){
 
     let time1 :&str = "02:34:21";
     let time2 :&str = "12:31";
-    let time3 :&str = "42.03";//with a full stop not semi should crash it with panic.
+//    let time3 :&str = "42.03";//with a full stop not semi should crash it with panic.
+    //    This variable is only here as a TODO to remind me to make the returns_time_in_seconds
+    //    function more lenient
     println!("time1 in secs: {}", returns_time_in_seconds(time1));
     println!("time2 in secs: {}", returns_time_in_seconds(time2));
 //    println!("SHOULD PANIC time3 in secs: {}", returns_time_in_seconds(time3));
